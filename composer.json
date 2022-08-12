@@ -9,8 +9,16 @@
         "illuminate/http": "^7.14.1|^8.0|^9.0",
         "illuminate/console": "^7.14.1|^8.0|^9.0",
         "illuminate/support": "^7.14.1|^8.0|^9.0",
-        "chartisan/php": "^1.2.0"
+        "chartisan/php": "dev-main"
     },
+
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/omnicourse/fork-chartisan-php"
+        }
+    ],
+
     "authors": [
         {
             "name": "Èrik C. Forés",
